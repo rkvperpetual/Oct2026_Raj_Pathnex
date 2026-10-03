@@ -1,0 +1,4 @@
+2 hours - watched Linux Scripting Video on youtube
+an hour - setup github and ec2
+an hour - practice with linux commands
+an hour - read the notes of linux commands and also linux scripting
