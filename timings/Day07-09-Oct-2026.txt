@@ -1,0 +1,4 @@
+watched the docker video on youtube ~ 3hours
+read the aws notes ~ an hour
+practice english speaking ~ 30 mins
+created ec2 instance using terraform and troubleshoot the error using chatgpt ~ an hour
