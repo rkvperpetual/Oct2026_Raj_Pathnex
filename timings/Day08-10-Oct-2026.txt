@@ -1,0 +1,4 @@
+watched the kubernetes video on youtube ~ 2hours
+practice creating ec2 using terraform then written the dockerfile, using docker file build the docker image then run that image instance(container) ~ 2hours
+practiced recording myself for english speaking improvement ~ 30 mins
+read the noted on docker ~ an hour
