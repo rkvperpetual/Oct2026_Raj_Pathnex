@@ -1,0 +1,3 @@
+watched the 3rd kubernetes video on youtube of september ~ 3 hours
+practiced creating eks cluster using terraform ~ an hour
+spend time with chatgpt for clearing the concept, understanding and also for troubleshooting ~ an hour
