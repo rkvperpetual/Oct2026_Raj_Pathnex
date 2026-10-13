@@ -1,0 +1,4 @@
+watched the 2nd video of kubernetes on youtube for better understanding the concept of creating the kubernetes cluster ~ 2.5hours
+read the notes and do some chatgpt for understanding the architecture and flow of kubernetes ~ 1.5 hours
+practiced creating k8s cluster on eks ~ an hour
+
