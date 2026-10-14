@@ -1,0 +1,4 @@
+rewatched the same kubernetes video on youtube for better understanding ~ 2.5 hours
+practiced creating the kubernetes cluster using terraform and troubleshoot the error like missing iam role(cluster and node role) ~ 2 hour
+used chatgpt and notebookllm for understanding the troubleshoot we did in the morning session ~ 2 hours
+
