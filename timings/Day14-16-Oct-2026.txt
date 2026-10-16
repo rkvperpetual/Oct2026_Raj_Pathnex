@@ -1,0 +1,4 @@
+watched kubernetes upgrade video on youtube ~ 2.5 hours
+practiced with kubernetes and deployed nginx server to kubernetes cluster ~ 1.5 hours
+read the notes on helm ~ an hour
+practiced english speaking on topic helm ~ 30 mins
