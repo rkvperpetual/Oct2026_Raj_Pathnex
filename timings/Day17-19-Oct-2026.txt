@@ -1,0 +1,4 @@
+watched 2nd video of Terraform on youtube of sep batch ~ 3 hours
+practiced terraform with it's state file lock ~ an hour
+practiced english speaking with chatgpt voice ~ an hour
+
