@@ -1,0 +1,3 @@
+practiced argo-cd by deploying real github repo to aws eks through argocd ~ 3-4 hours
+read the notes on terraform ~ an hours
+practiced english speaking by recording myself ~ 30 mins
