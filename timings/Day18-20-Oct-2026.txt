@@ -1,0 +1,5 @@
+watched ansible video of sep batch on youtube ~ 3 hours
+practiced ansible by creating control node and 2 managed node ~ 2 hours
+watched argo-cd video of sep batch on youtube ~ 2 hours
+praticed english speaking gemini ~ 30 mins
+read notes of kubernetes for revision ~ an hour 
