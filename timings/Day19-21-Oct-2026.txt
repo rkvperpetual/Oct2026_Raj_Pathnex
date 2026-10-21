@@ -1,0 +1,4 @@
+practiced ansible by creating two managed node and central node and installed apanche and nginx on different ports 80 and 8080 ~ 3 hours
+watched next ci/cd video on youtube of september ~ 3 hours
+read notes of ansible ~ an hour
+practice english speaking with gemini ~ 40 mins
