@@ -1,0 +1,3 @@
+watched the morning session again ~ 2 hours
+practice english speaking ~ 30 mins
+practice ansible by installing apache and nginx in managed node thorugh control node ~ an hour
