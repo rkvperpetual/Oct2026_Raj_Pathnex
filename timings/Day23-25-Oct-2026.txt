@@ -1,0 +1,4 @@
+watched the apache kafka video of sep batch ~ 3 hours
+practice prometheus and grafana with eks ~ 2 hours 
+read the notes of prometheus and grafana ~ an hour
+practice english speaking in front of mirror ~ 30 mins
