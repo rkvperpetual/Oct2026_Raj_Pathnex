@@ -1,0 +1,4 @@
+Watched the monitoring video of sep batch which covers the topics Datadog ~ 3 hours
+continued with practicing monitoring and configured the telegram to get alerts there using alert manager ~ 4 hours
+read the notes of apache kafka and used chatgpt for better understanding ~ 1.5 hours
+practice english speaking with gemini ~ 30 mins
