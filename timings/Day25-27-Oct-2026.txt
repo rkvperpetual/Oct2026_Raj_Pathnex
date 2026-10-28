@@ -1,0 +1,4 @@
+watched elk video of september batch ~ 3 hours
+practiced monitoring the eks with Datadog and created dashboard and done alots of toubleshooting ~ 3 hours
+read the notes and use chatgpt for understanding ssl/tls ~ an hour
+practice english speaking with gemini ~ 30 mins
