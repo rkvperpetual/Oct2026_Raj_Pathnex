@@ -1,0 +1,5 @@
+watched the sre video of september batch ~ 2 hours
+read the notes and used chatgpt to understand sre ~ 2 hours
+continued practicing eks with elk stack and building dashboard in kibana ~ 3 hours
+practice english speaking with gemini ~ 40 mins
+created a new aws account because old one was expired (it's free credit) ~ an hour
