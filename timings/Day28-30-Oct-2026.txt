@@ -1,0 +1,4 @@
+watched the apache kafka video of august batch on youtube ~ 3 hours
+practiced apache kafka by building kafka cluster and did troubleshooting using chatgpt ~ 3 hours
+read the interview questions of apache kafka ~ an hour
+practiced english speaking with gemini ~ 30 mins
