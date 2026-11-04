@@ -1,0 +1,4 @@
+watched ansible and git video of august batch on youtube ~ 6 hours
+read the notes of ansible, git, ci/cd ~ 3 hours
+use chatgpt to build end to end application deployment on eks (in progress) ~ 2 hours
+practice english speaking with gemini ~ 30 mins
