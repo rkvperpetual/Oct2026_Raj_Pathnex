@@ -1,0 +1,3 @@
+watched first aws video, helm and argocd video of august batch ~ 6 hours
+read the terraform interview questions ~ 2 hours
+practice english speaking with gemini ~ 30 mins
