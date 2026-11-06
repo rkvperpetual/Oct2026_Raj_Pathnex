@@ -1,0 +1,4 @@
+watched monitoring(prometheus + grafana) and elk stack video of july batch on youtube ~ 5 hours
+write a jenkinsfile and created a stages into it for deploying application on eks when there is any commit on source repo (used github-webhook) ~ 4 hours
+completed the revison of aws services from notes and chatgpt ~ 2 hours
+practice english speaking by giving an interview with chatgpt on kubernetes ~ 30 mins 

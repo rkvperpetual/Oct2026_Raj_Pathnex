@@ -1,0 +1,33 @@
+ parameters {
+  string(name: 'Environment', defaultValue: 'dev', description: 'Deployment Variable')
+ }
+ environment {
+  INSTITUTE_NAME = "Pathnex"
+ }
+ stage {
+  stage('Checkout') {
+   steps {
+    git url: 'https://github.com/Pathnex/sample-java-app.git'
+   }
+  }
+  stage('Deploy') {
+   steps {
+    sh 'echo "Deploying to $ENVIRONMENT by INSTITUTE_NAME"'
+   }
+  }
+ }
+}
+
+GitLab CI - Parameterized via Variables
+stages:
+ - deploy
+
+variables:
+ INSTITUTE_NAME: "Pathnex"
+ ENVIRONMENT: "dev"
+
+deploy:
+ stage: deploy
+ image: alpine:latest
+ script:
+  - echo "Deploying to $ENVIRONMENT by $INSTITUTE_NAME"
