@@ -1,0 +1,5 @@
+watched the ssl, sre and DevSecOps video od july batch on youtube ~ 4 hours
+watched bash/shell scripting video of july batch ~ 2 hours
+read and learn about ssl and sre using notes and chatgpt ~ 4 hours
+practice ssl by attaching self-signed certificate with nginx webpage running on ec2 instance ~ 2hours
+practice english speaking with gemini and infront of mirror ~ 30 mins
