@@ -1,0 +1,5 @@
+learn about the full architecture of aws services like how they are used in production ~ 2 hours
+watched some clips from videos to clear the concept ~ an hour
+read and understand about the vpc and it's component, ci/cd pipelines in gitlab and jenkins then their components ~ 3 hours
+revised the notes ~ 2 hours
+practice english speaking in front of mirror ~ an hour
