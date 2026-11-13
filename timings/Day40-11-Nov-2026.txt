@@ -1,0 +1,4 @@
+watached sre and devsecops video ~ 4 hours
+revise the notes of aws all services and terraform ~ 3 hours
+read the notes of helm,argocd, and ansible ~ 3 hours
+
