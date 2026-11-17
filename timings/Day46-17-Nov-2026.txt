@@ -1,0 +1,4 @@
+watched helm and argocd video of july batch ~ 6 hours
+revised the notes ~ 3 hours
+did some practical in kubernetes ~ an hour
+practice english speaking ~ 30 mins 
