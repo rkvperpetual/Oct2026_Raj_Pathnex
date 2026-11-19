@@ -1,0 +1,4 @@
+read the notes of L2 channel ~ 5 hours
+practice the ec2 with s3 ~ an hour
+watched terraform video of july batch ~ 4 hours
+
