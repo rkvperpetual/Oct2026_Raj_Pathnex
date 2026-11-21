@@ -1,0 +1,3 @@
+read the chatgpt questions for L2 mock ~ 5 hours
+practice prometheus and grafana for monitoring ~ 2 hours
+practice english speaking with gemini ~ 30 mins
