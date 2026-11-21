@@ -1,0 +1,4 @@
+practiced with kubernetes and deployed application on it using helm and then use argocd and also understand the k8s manifest file ~ 4 hours
+read the chatgpt questions for L2 mock ~ 3 hours
+learn about the ai questions for real interview in the evening session ~ 3.5 hours
+practiced english speaking with gemini ~ 30 mins
