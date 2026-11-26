@@ -1,0 +1,90 @@
+Ansible - Install + Start Multiple Services
+---
+- name: Install and Enable services
+  hosts: all
+  become: yes
+
+  tasks: 
+   - name: Install Services
+     yum:
+      name:
+       - httpd
+       - firewalld
+      state: present
+ 
+   - name: Enable and start Services
+     service:
+      name: "{{ item }}"
+      state: started
+      enabled: yes
+     loop:
+      - httpd
+      - firewalld
+
+Terraform - Route53 Record
+resource "aws-route53_record" "PathnexRecord" {
+ zone_id = "Z12345678990"
+ name: "app.pathnex.com"
+ type: "A"
+ ttl: 300
+ records: [aws_eip.PathnexEIP.public_ip]
+}
+
+Kubernetes - Init Container
+apiVersion: v1
+kind: Pod
+metadata: 
+ name: pathnex-init
+spec:
+ initContainers:
+  - name: setup
+    image: busybox
+    command: ["sh", "-c", "echo Initializing; sleep 10"]
+ containers:
+  - name: main
+    image: nginx
+
+Shell Script - System Status
+#!/bin/bash
+
+echo "Hostname: $(hostname)"
+echo "Uptime: $(uptime)"
+echo "IP: $(hostname -I)"
+
+Jenkins Pipeline - Deploy to Dynamic Environment
+pipeline {
+ agent any
+ environment {
+  INSTITUTE_NAME = "Pathnex"
+  TEAM = "DevOps"
+ }
+ parameters {
+  string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Deployment Environment')
+ }
+ stages {
+  stage('Deploy') {
+   steps {
+    sh 'echo "Deploying $INSTITUTE_NAME app to $ENVIRONMENT for $TEAM team"'
+   }
+  }
+ }
+}
+
+GitLab CI - Dynamic Environment Deployment 
+stages:
+ - deploy
+
+varibles:
+ INSTITUTE_NAME: "Pathnex"
+ TEAM: "DevOps"
+
+deploy:
+ stage: deploy
+ image: alpine:latest
+ environment:
+  name: $CI_COMMIT_REF_NAME
+  url: http://$CI_COMMIT_REF_NAME.pathnex.com
+ script:
+  - echo "Deploying $INSTITUTE_NAME app to $CI_COMMIT_REF_NAME for $TEAM team"
+
+
