@@ -1,0 +1,84 @@
+Ansible - Creating Pathnex Admin User
+---
+- name: Create Pathnex Admin User
+  hosts: all
+  become: yes
+
+  tasks:
+   - name: Create user
+     ansible.builtin.user:
+      name: pathnex-admin
+      shell: /bin/bash
+      create_home: yes
+      state: present
+   
+   - name: Add SSH public key
+     ansible.posix.authorized_key:
+      user: pathnex-admin
+      key: "{{ lookup('file', 'id_rsa.pub') }}"
+      state: present
+
+Terraform - Creating EC2 Instance
+terraform {
+ required_providers {
+  aws = {
+   source = "hashicorp/aws"
+   version = "~>6.0"
+  }
+ }
+}
+
+provider "aws" {
+ region = "ap-south-1"
+}
+
+resource "aws_instance" "pathnex" {
+ ami = var.ami_id
+ instance_type = "t3.large"
+ 
+ tags = {
+  Project = "Pathnex-Training"
+ }
+}
+
+variable "ami_id" {
+ description = "Valid AMI ID for the selected AWS region"
+ type = string
+}
+
+Kubernetes - Deployment + Cluster IP
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: pathnex-app
+spec:
+ replicas: 2
+ selector:
+  matchLabels:
+   app: pathnex
+ template:
+  metadata:
+   labels:
+    app: pathnex
+  spec:
+   containers:
+    - name: nginx
+      image: nginx:latest
+      ports:
+       - containerPort: 80
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+ name: pathnex-service
+spec:
+ type: ClusterIP
+ selector: 
+  app: pathnex
+ ports:
+  - port: 80
+    targetPort: 80
+
+
